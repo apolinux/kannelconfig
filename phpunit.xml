@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<!-- see http://www.phpunit.de/wiki/Documentation -->
+<phpunit bootstrap="./vendor/autoload.php"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnFailure="false"
+         colors="true">
+  <testsuites>
+    <testsuite name="default">
+      <directory>test</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
+
+<!-- <phpunit colors="false" backupGlobals="false" >
+</phpunit> -->
